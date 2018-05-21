@@ -1,0 +1,19 @@
+body {
+background: #A9F5F9;
+}
+.dropD {
+border: 3px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+border-color: red;
+}
+button {
+background: blue;
+font-family: sans-serif;
+}
+.status {
+font-family: Geneva;
+}
+.error {
+color:red;
+font-weight: bold;
+}
