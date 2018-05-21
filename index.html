@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Welcome!</title>
+      <meta charset="utf-8"/>
+      <head>
+         <link rel="stylesheet" href="Style.css">
+   </head>
+   <body>
+      Team
+      <select class="dropD" id="sel" onchange="getTeamMembers()" >
+         <option value="Main Releases">Main Releases</option>
+         <option value="Mobile">Mobile</option>
+         <option value="Web">Web</option>
+         <option value="OMG">omg</option>
+      </select>
+      Members<select class="dropD" id="selName" >
+      </select>
+      <button onClick="generateReport()"> Generate report</button>
+      <table id="svTable">
+         <tr>
+            <th id="tHeader" colspan="2"></th>
+         </tr>
+      </table>
+      <script src="js.js"></script>
+   </body>
+</html>
